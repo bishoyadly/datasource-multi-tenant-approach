@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/default_tenant
+    username: bishoy
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+
+
+  liquibase:
+    enabled: false
+
+  flyway:
+    enabled: false
